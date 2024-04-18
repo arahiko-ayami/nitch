@@ -10,14 +10,14 @@
 <br>
 
 ![Maintenance](https://shields.io/maintenance/yes/2022?style=for-the-badge)
-![License](https://shields.io/github/license/unxsh/nitch?style=for-the-badge)
-![Commits](https://shields.io/github/commit-activity/m/unxsh/nitch?style=for-the-badge)
+![License](https://shields.io/github/license/arahiko-ayami/nitch?style=for-the-badge)
+![Commits](https://shields.io/github/commit-activity/m/arahiko-ayami/nitch?style=for-the-badge)
 
-![GitHub Repo stars](https://img.shields.io/github/stars/unxsh/nitch?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/unxsh/nitch?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/unxsh/nitch?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/arahiko-ayami/nitch?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/arahiko-ayami/nitch?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/arahiko-ayami/nitch?style=for-the-badge)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/unxsh/nitch?style=for-the-badge)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/arahiko-ayami/nitch?style=for-the-badge)
 
 </div>
 
@@ -42,7 +42,7 @@ why `nim👑`? because it's fast and simple
 
 # Installation ☁️
 ```fish
-wget https://raw.githubusercontent.com/unxsh/nitch/main/setup.sh && sh setup.sh
+wget https://raw.githubusercontent.com/arahiko-ayami/nitch/main/setup.sh && sh setup.sh
 ```
 
 # Usage 🪨
@@ -84,13 +84,13 @@ proc drawInfo*() =
   const  # icons before cotegores
     userIcon: string   = " "  # recomended: " " or "|>"
     hnameIcon: string  = " "  # recomended: " " or "|>"
-    distroIcon: string = "󰻀 "  # recomended: "󰻀 " or "|>"
-    kernelIcon: string = "󰌢 "  # recomended: "󰌢 " or "|>"
+    distroIcon: string = " "  # recomended: " " or "|>"
+    kernelIcon: string = " "  # recomended: " " or "|>"
     uptimeIcon: string = " "  # recomended: " " or "|>"
     shellIcon: string  = " "  # recomended: " " or "|>"
-    pkgsIcon: string   = "󰏖 "  # recomended: "󰏖 " or "|>"
-    ramIcon: string    = "󰍛 "  # recomended: "󰍛 " or "|>"
-    colorsIcon: string = "󰏘 "  # recomended: "󰏘 " or "->"
+    pkgsIcon: string   = " "  # recomended: " " or "|>"
+    ramIcon: string    = " "  # recomended: " " or "|>"
+    colorsIcon: string = " "  # recomended: " " or "->"
     # please insert any char after the icon
     # to avoid the bug with cropping the edge of the icon
 
@@ -215,3 +215,4 @@ nitch
 - [paleofetch](https://github.com/ss7m/paleofetch)
 - [rxfetch](https://github.com/Mangeshrex/rxfetch)
 - [nerdfetch](https://github.com/ThatOneCalculator/NerdFetch)
+- [nitch](https://github.com/ssleert/nitch) - original nitch
