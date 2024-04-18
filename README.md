@@ -9,7 +9,7 @@
 </h3>
 <br>
 
-![Maintenance](https://shields.io/maintenance/yes/2022?style=for-the-badge)
+![Maintenance](https://img.shields.io/maintenance/yes/2024?style=for-the-badge)
 ![License](https://shields.io/github/license/arahiko-ayami/nitch?style=for-the-badge)
 ![Commits](https://shields.io/github/commit-activity/m/arahiko-ayami/nitch?style=for-the-badge)
 
